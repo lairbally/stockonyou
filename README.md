@@ -4,6 +4,10 @@
 
 - [Ma. Lair A. Balogal](https://github.com/lairbally)
 
+## Medium Blog Post
+
+- [Ma. Lair A. Balogal | Stock on You](https://lairbally.medium.com/stock-on-you-a-network-analysis-of-the-top-50-s-p-stocks-768df794229a)
+
 ## Overview
 Stock on You is a data analysis project that explores the relationships and sector dominance among the top 50 S&P stocks with the highest daily returns during the 5-year period from 2013 to 2018. The goal of this project is to gain insights into the complex interconnections between these high-performing stocks and to identify dominant sectors in the stock market landscape.
 
