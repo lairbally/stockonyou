@@ -79,7 +79,7 @@ The `stock_on_you_network_and_gc_analysis.ipynb` notebook includes creative visu
 The notebook also presents the results of the analysis, including network graphs showing the relationships between the top 50 S&P stocks, sector-wise stock distribution and dominance visualizations, and various centrality measures.
 
 ## Contribution Guidelines
-We welcome contributions to this project! If you have any ideas for improvement or new features to add, please feel free to open an issue or submit a pull request. 
+I welcome contributions to this project! If you have any ideas for improvement or new features to add, please feel free to open an issue or submit a pull request. 
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
