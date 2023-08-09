@@ -56,13 +56,26 @@ pip install pandas numpy wordcloud matplotlib plotly Pillow statsmodels tqdm net
 
 Please note that some of the dependencies, such as `Pillow` and `scikit-learn`, are sub-packages of the larger libraries `PIL` and `sklearn`, respectively.
 
-In addition to the dependencies, make sure to include the warning filters at the beginning of your Python script or Jupyter Notebook to suppress certain warnings:
+## Handling Warnings
+
+When working with this codebase, you may encounter certain warnings related to data type conversions, missing values, or deprecated functions. These warnings might not necessarily indicate errors in your code, but rather highlight potential issues or changes in Python libraries.
+
+To provide a smoother experience and reduce unnecessary noise in your development environment, we recommend considering the following steps to handle warnings:
+
+1. **Understanding the Warnings:** Before suppressing any warnings, take a moment to read and understand the warnings you encounter. They often provide valuable insights into potential issues in your code.
+
+2. **Selective Suppression:** Instead of suppressing all warnings indiscriminately, consider selectively suppressing specific categories of warnings that you are confident can be safely ignored. This ensures that you remain aware of any important warnings that might arise.
+
+3. **Updating Your Code:** Whenever possible, update your code to address the issues that generate warnings. This can lead to more robust and maintainable code in the long run.
+
+Here's an example of how you can selectively suppress certain warnings at the beginning of your Python script or Jupyter Notebook:
 
 ```python
 import warnings
+
+# Suppress specific categories of warnings
 warnings.filterwarnings("ignore", category=Warning)
 warnings.simplefilter(action='ignore', category=FutureWarning)
-```
 
 ## Usage
 To analyze the stock market landscape and explore the relationships among the top 50 S&P stocks with the highest daily returns, follow these steps:
