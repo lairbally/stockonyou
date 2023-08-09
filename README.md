@@ -75,7 +75,8 @@ import warnings
 
 # Suppress specific categories of warnings
 warnings.filterwarnings("ignore", category=Warning)
-warnings.simplefilter(action='ignore', category=FutureWarning)```
+warnings.simplefilter(action='ignore', category=FutureWarning)
+```
 
 ## Usage
 To analyze the stock market landscape and explore the relationships among the top 50 S&P stocks with the highest daily returns, follow these steps:
